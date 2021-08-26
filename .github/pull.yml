@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master
+    upstream: icrons:main # change `wei` to the owner of upstream repo
+    mergeMethod: merge # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
+ 
